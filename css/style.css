@@ -232,6 +232,51 @@ tr:hover
     text-align: center;
     padding: 10px;
 }
+.hobby-cont
+{
+    list-style: none;
+    animation: scrolling 0.2s infinite;
+}
+.wrapper
+{
+    margin: 100px auto;
+    width: 70%;
+}
+.text-box
+{
+    color: black;
+}
+.text-box h7
+{
+    font-size: 42px;
+}
+.text-box p
+{
+    font-size: 16px;
+    text-align: justify;
+}
+.content-2
+{
+    background-color: #667058;
+    margin: 190px;
+    height:350px;
+    float: left;
+    margin-top: 30px;
+}
+.content-3
+{
+    background-color:whitesmoke;
+    height:350px;
+    float: left;
+    margin-top:-15px;
+}
+.content-4
+{
+    background-color: #667058;
+    height: 350px;
+    float: left;
+    margin-top: 15px;
+}
 .menu5
 {
     width: 100%;
