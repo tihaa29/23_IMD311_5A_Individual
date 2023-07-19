@@ -1,9 +1,152 @@
-h1
-    {
-        color:darkmagenta;
-    }
-
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body
     {
-        background-color: mediumpurple;
+        background-color:#ffffff;
     }
+
+a
+    {
+        font-family: 'Times New Roman', Times, serif;
+        padding-left: 20px;
+        color:rgb(59, 59, 59);
+        text-decoration: none;
+    }
+
+a:hover
+    {
+        color: rgb(181, 158, 74);
+    
+    }
+.logo
+    {
+        display: flex;
+        font-size: 20pt;
+        letter-spacing: 2px;
+        float: left;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 800;
+        height: 40px;
+        align-items: center;
+    }
+
+.menu
+    {
+        margin: 15px 10px;
+        float: right;
+        font-weight: bold;
+    }
+
+.menu1
+{
+    width: 100%;
+    height: 40px;
+    margin: 0px 0px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+.biography
+{
+    box-sizing: content-box;
+    width: 600px;
+    height:120px;
+    padding: 40px;
+    background-color: #C4B071;
+    margin: 50px 300px;
+}
+.menu2
+{
+    width: 100%;
+    height: 40px;
+    margin: 0px 0px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+table,tr,td,th
+    {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+td
+    {
+        padding: 10px;
+    }
+
+th
+    {
+        background-color:#D6E3B5;
+        color: black;
+    }
+
+tr
+    {
+        background-color: #525E38;
+    }
+
+tr:nth-child(odd)
+    {
+        background-color: #798A54;
+    }
+
+tr:hover
+    {
+        background-color: #7B8173;
+    }
+
+.slide-container
+{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.img{
+    position: relative;
+    width: 240px;
+    height: 370px;
+    transition: .5s;
+    filter: saturate(10%);
+}
+
+.menu3
+{
+    width: 100%;
+    height: 40px;
+    margin: 0px 0px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+.heading
+{
+    font-size: 25pt;
+    font-weight: 600px;
+    text-align: center;
+}
+.menu4
+{
+    width: 100%;
+    height: 40px;
+    margin: 0px 0px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+.menu5
+{
+    width: 100%;
+    height: 40px;
+    margin: 0px 0px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+
